@@ -21,6 +21,10 @@
         path="yocto-build/layers/meta-mapio-distro"
         remote="mapio"
         revision="main" />
+    <project name="meta-mapio-app"
+        path="yocto-build/layers/meta-mapio-app"
+        remote="mapio"
+        revision="main" />
 
     <!-- Yocto repositories -->
     <project name="poky"
