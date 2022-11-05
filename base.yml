@@ -1,0 +1,23 @@
+header:
+  version: 12
+
+repos:
+  poky:
+    url: https://git.yoctoproject.org/git/poky
+    refspec: d64bef1c7d713b92a51228e5ade945835e5a94a4
+    path: layers/poky
+    layers:
+      meta:
+      meta-poky:
+
+  meta-openembedded:
+    url: http://git.openembedded.org/meta-openembedded
+    refspec: 8f96c05f6d82fde052f2cb1652c13922814accb0
+    path: layers/meta-openembedded
+    layers:
+      meta-oe:
+      meta-python:
+      meta-networking:
+      meta-filesystems:
+
+

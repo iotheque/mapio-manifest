@@ -1,0 +1,45 @@
+header:
+  version: 12
+
+machine: mapio-cm4-64
+distro: mapio
+target: mapio-genimage
+
+env:
+  SECRET_PATH: ../../../../../
+
+repos:
+  meta-raspberrypi:
+    url: https://github.com/agherzan/meta-raspberrypi/
+    path: layers/meta-raspberrypi
+    refspec: dacad9302a92b0b7edf8546cdcad1f8ef753e462
+
+  meta-mapio-bsp:
+    url: git@github.com:pcurt/meta-mapio-bsp.git
+    path: layers/meta-mapio-bsp
+    refspec: dev
+  
+  meta-mapio-distro:
+    url: git@github.com:pcurt/meta-mapio-distro.git
+    path: layers/meta-mapio-distro
+    refspec: dev
+ 
+  meta-mapio-app:
+    url: git@github.com:pcurt/meta-mapio-app.git
+    path: layers/meta-mapio-app
+    refspec: dev
+  
+  meta-virtualization:
+    url: git://git.yoctoproject.org/meta-virtualization
+    path: layers/meta-virtualization
+    refspec: 8c5f038cb92fa4b02246d2d1479a003eecf5fe93
+  
+  meta-ptx:
+    url: git://git.pengutronix.de/meta-ptx
+    path: layers/meta-ptx
+    refspec: 95fc4e68046327d605c52557f21853b0c24350dd
+  
+  meta-rauc:
+    url: https://github.com/rauc/meta-rauc
+    path: layers/meta-rauc
+    refspec: 61c628cd3ca962439ed3a93a01ed952e6fa17d9e
