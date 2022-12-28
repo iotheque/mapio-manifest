@@ -32,7 +32,7 @@ repos:
   meta-virtualization:
     url: git://git.yoctoproject.org/meta-virtualization
     path: layers/meta-virtualization
-    refspec: 8c5f038cb92fa4b02246d2d1479a003eecf5fe93
+    refspec: 927537108bcf2b98859512ce3eae59a73439994d
   
   meta-ptx:
     url: git://git.pengutronix.de/meta-ptx
