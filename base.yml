@@ -19,5 +19,5 @@ repos:
       meta-python:
       meta-networking:
       meta-filesystems:
-
+      meta-webserver:
 
