@@ -3,10 +3,10 @@ header:
 
 machine: mapio-cm4-64
 distro: mapio
-target: mapio-genimage
+target: mapio-image
 
 env:
-  SECRET_PATH: ../../../../../
+  SECRET_PATH: ../../../../../../..
 
 repos:
   meta-raspberrypi:
