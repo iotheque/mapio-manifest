@@ -13,7 +13,7 @@ repos:
   meta-raspberrypi:
     url: https://github.com/agherzan/meta-raspberrypi/
     path: layers/meta-raspberrypi
-    refspec: e6d2ff0b0cbb925157c95b07327c2a7dc145fabe
+    refspec: 9dc6673d41044f1174551120ce63501421dbcd85
 
   meta-mapio-bsp:
     url: git@github.com:pcurt/meta-mapio-bsp.git
@@ -33,7 +33,7 @@ repos:
   meta-virtualization:
     url: git://git.yoctoproject.org/meta-virtualization
     path: layers/meta-virtualization
-    refspec: 88327090d26955a678c6f8bd2585aad4d802f6c4
+    refspec: 7902664f89678164b7fc90d421cee74cbec51cdf
 
   meta-rauc:
     url: https://github.com/rauc/meta-rauc
