@@ -18,17 +18,17 @@ repos:
   meta-mapio-bsp:
     url: git@github.com:iotheque/meta-mapio-bsp.git
     path: layers/meta-mapio-bsp
-    refspec: v1.4
+    refspec: v1.5
 
   meta-mapio-distro:
     url: git@github.com:iotheque/meta-mapio-distro.git
     path: layers/meta-mapio-distro
-    refspec: v1.4
+    refspec: v1.5
 
   meta-mapio-app:
     url: git@github.com:iotheque/meta-mapio-app.git
     path: layers/meta-mapio-app
-    refspec: v1.4
+    refspec: v1.5
 
   meta-virtualization:
     url: git://git.yoctoproject.org/meta-virtualization
