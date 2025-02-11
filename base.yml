@@ -4,7 +4,7 @@ header:
 repos:
   poky:
     url: https://git.yoctoproject.org/git/poky
-    refspec: 54af8c5e80ebf63707ef4e51cc9d374f716da603
+    refspec: scarthgap-5.0.6
     path: layers/poky
     layers:
       meta:
@@ -12,7 +12,7 @@ repos:
 
   meta-openembedded:
     url: http://git.openembedded.org/meta-openembedded
-    refspec: fda737ec0cc1d2a5217548a560074a8e4d5ec580
+    refspec: dda0d53326017d6758ec6bdfdaf2f484c089d13f
     path: layers/meta-openembedded
     layers:
       meta-oe:

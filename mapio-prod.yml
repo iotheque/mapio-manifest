@@ -8,34 +8,34 @@ target: mapio-image
 env:
   SECRET_PATH: ../../../../../../..
   PASSWD_ROOT: \$6\$2nzC5Z9/00vog9pY\$kkl7s7T.WEJKKETEitj/6ceb0KRwOMZ6FbhHjKrgFafMkMwZRj4LN4W46.Xhef6oLf82EMdp05mIO6lb1R1hi/  
-
+  MAPIO_OS_VERSION: "2.0"
 repos:
   meta-raspberrypi:
     url: https://github.com/agherzan/meta-raspberrypi/
     path: layers/meta-raspberrypi
-    refspec: 9dc6673d41044f1174551120ce63501421dbcd85
+    refspec: 6df7e028a2b7b2d8cab0745dc0ed2eebc3742a17
 
   meta-mapio-bsp:
     url: git@github.com:iotheque/meta-mapio-bsp.git
     path: layers/meta-mapio-bsp
-    refspec: v1.5
+    refspec: v2.0
 
   meta-mapio-distro:
     url: git@github.com:iotheque/meta-mapio-distro.git
     path: layers/meta-mapio-distro
-    refspec: v1.5
+    refspec: v2.0
 
   meta-mapio-app:
     url: git@github.com:iotheque/meta-mapio-app.git
     path: layers/meta-mapio-app
-    refspec: v1.5
+    refspec: v2.0
 
   meta-virtualization:
     url: git://git.yoctoproject.org/meta-virtualization
     path: layers/meta-virtualization
-    refspec: 7902664f89678164b7fc90d421cee74cbec51cdf
+    refspec: 79673f5c67b022e7aadeb231872470295e5b9188
 
   meta-rauc:
     url: https://github.com/rauc/meta-rauc
     path: layers/meta-rauc
-    refspec: ed6dc67ffb143a4c4fac01e0b7e8a60fc6260b85
+    refspec: 76b97796be1d0303436835e56d85d7316a1029d9
